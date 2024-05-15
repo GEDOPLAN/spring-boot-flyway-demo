@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-boot-flyway-demo
+  datasource:
+    url: jdbc:h2:file:~/h2/spring-boot-flyway-demo;AUTO_SERVER=TRUE
+    username: flyway
+    password: flyway
+    driverClassName: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
